@@ -155,12 +155,22 @@ footer {
     font-size: 50px;
 }
 
+@media screen and (max-width: 980px) {
+    .portfolio-img {
+        /*clear: both;*/
+    }
+}
+
 @media screen and (max-width: 768px) {
     :root {
         --page-width: 95%;
     }
     .w-70, .w-30 {
         width: 100%;
+    }
+
+    .portfolio-img {
+        /*float: left;*/
     }
 }
 
